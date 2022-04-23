@@ -9,3 +9,73 @@ body{
 .text{
     font-size: 30px;
 }
+.label{
+    position: absolute;
+    font-size: 40px;
+    left: 565px;
+}
+.detailsCont{
+    position: absolute;
+    border-style: solid;
+    border-width: 2px 2px;
+    border-color: #242124;
+    background-color: #1b141b;
+    width: 400px;
+    height: 100px;
+    left: 750px;
+}
+
+#lover1{
+    position: absolute;
+    top: 420px;
+}
+
+#lover1details{
+    position: absolute;
+    top: 430px;
+}
+
+#lover2{
+    position: absolute;
+    top: 520px;
+}
+
+#lover2details{
+    position: absolute;
+    top: 530px;
+}
+
+#antagonist{
+    position: absolute;
+    left: 510px;
+    top: 620px;
+}
+
+#antagonistdetails{
+    position: absolute;
+    top: 630px;
+}
+
+#problem{
+    position: absolute;
+    left: 550px;
+    top: 720px;
+}
+
+#problemdetails{
+    position: absolute;
+    top: 730px;
+}
+
+#background{
+    position: absolute;
+    left: 490px;
+    top: 820px;
+}
+
+#backgrounddetails{
+    position: absolute;
+    top: 830px;
+    width: 400px;
+    height: 140px;
+}
