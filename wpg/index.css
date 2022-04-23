@@ -1,0 +1,26 @@
+#genreCont{
+    top: 100px;
+}
+
+body{
+    color: #FAF9F6;
+}
+
+.text{
+    position: absolute;
+    font-size: 40px;
+    left: 500px;
+    top: 430px;
+}
+
+#ptextcont{
+    position: absolute;
+    border-style: solid;
+    border-width: 2px 2px;
+    border-color: #242124;
+    background-color: #1b141b;
+    width: 400px;
+    height: 100px;
+    top: 420px;
+    left: 750px;
+}

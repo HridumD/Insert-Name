@@ -1,0 +1,2 @@
+https://fonts.google.com/ - Fonts
+https://getbootstrap.com/ - Styling
