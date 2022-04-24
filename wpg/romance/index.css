@@ -45,37 +45,25 @@ body{
     top: 530px;
 }
 
-#antagonist{
+#plot{
     position: absolute;
-    left: 510px;
+    left: 620px;
     top: 620px;
 }
 
-#antagonistdetails{
+#plotdetails{
     position: absolute;
     top: 630px;
-}
-
-#problem{
-    position: absolute;
-    left: 550px;
-    top: 720px;
-}
-
-#problemdetails{
-    position: absolute;
-    top: 730px;
-}
-
-#background{
-    position: absolute;
-    left: 490px;
-    top: 820px;
-}
-
-#backgrounddetails{
-    position: absolute;
-    top: 830px;
     width: 400px;
     height: 140px;
+}
+
+#l1d{
+    color: #FAF9F6;
+    font-size: 20px;
+}
+
+#l2d{
+    color: #FAF9F6;
+    font-size: 20px;
 }

@@ -14,7 +14,8 @@
     <!--JS-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    
+    <script src="logic.js"></script>
+
     <title>Plot Generator - Romance</title>
 </head>
 <body>
@@ -23,7 +24,7 @@
         <button class="btn btn-warning btn-lg dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
             <label>Genres</label>
         </button>
-        <button class="btn btn-warning btn-lg" type="button">
+        <button class="btn btn-warning btn-lg" type="button" onclick="generateStory()">
             <label>Generate</label>
         </button>
         <ul class="dropdown-menu dropdown-menu-dark">
@@ -35,27 +36,17 @@
     <div class="container">
         <label class="label text" id="lover1">Lover 1</label>
         <div class="detailsCont" id="lover1details">
-            <label class="details"></label>
+            <label class="details text-wrap" id="l1d"></label>
         </div>
 
         <label class="label text" id="lover2">Lover 2</label>
         <div class="detailsCont" id="lover2details">
-            <label class="details"></label>
+            <label class="details text-wrap" id="l2d"></label>
         </div>
-
-        <label class="label text" id="antagonist">Antagonist</label>
-        <div class="detailsCont" id="antagonistdetails">            
-            <label class="details"></label>
-        </div>
-    
-        <label class="label text" id="problem">Problem</label>
-        <div class="detailsCont" id="problemdetails">            
-            <label class="details"></label>
-        </div>
-    
-        <label class="label text" id="background">Background</label>
-        <div class="detailsCont" id="backgrounddetails">            
-            <label class="details"></label>
+        
+        <label class="label text" id="plot">Plot</label>
+        <div class="detailsCont" id="plotdetails">            
+            <label class="details text-wrap" id="bd"></label>
         </div>
     </div>
 </body>
