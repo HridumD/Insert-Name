@@ -39,14 +39,17 @@ function generateStory(){
     ]
     var reasons = [
         "someone didn't have enough change",
-        "someone's close relative died",
-        'someone was trying to buy food'
+        'someone was trying to buy food',
+        // 4/25/2022 update
+        'someone was trying to borrow a pencil',
+        'someone tripped',
+        'someone lost a family heirloom'
     ]
 
     var l1 = 'A ' + profs[Math.floor(Math.random() * profs.length)] + ' who ' + adjs[Math.floor(Math.random() * adjs.length)]
     var l2 = 'A ' + profs[Math.floor(Math.random() * profs.length)] + ' who ' + adjs[Math.floor(Math.random() * adjs.length)]
 
-    var plot = 'A ' + types[Math.floor(Math.random() * types.length)] + ', where the plot starts off at ' + places[Math.floor(Math.random() * places.length)] + '. It starts when ' + reasons[Math.floor(Math.random() * reasons.length)] 
+    var plot = 'A ' + types[Math.floor(Math.random() * types.length)] + ', where the plot starts off at ' + places[Math.floor(Math.random() * places.length)] + '. It starts when ' + reasons[Math.floor(Math.random() * reasons.length)] + '.' 
 
     document.getElementById('pd').innerHTML = plot
     document.getElementById('l1d').innerHTML = l1
