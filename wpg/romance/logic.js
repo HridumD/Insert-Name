@@ -31,13 +31,13 @@ function generateStory(){
         'historical romance',
         'inspirational romance'
     ]
-    places = [
+    var places = [
         'a beach',
         'a grocery store',
         'a highschool',
         'a gas station'
     ]
-    reasons = [
+    var reasons = [
         "someone didn't have enough change",
         "someone's close relative died",
         'someone was trying to buy food'
